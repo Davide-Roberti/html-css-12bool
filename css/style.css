@@ -1,5 +1,63 @@
+* {
+    font-family: sans-serif;
+}
+
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: grey;
+}
+
+/* stilizzazione barra-menu */
+.barra-menu {
+    background-color: black;
+}
+
+/* stilizzazione logo */
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 145px;
+}
+
+/* stilizzazione menu */
+
+.menu li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu {
+    text-align: center;
+    line-height: 77px;
+}
+
+/* media query tablet */
+
+@media screen and (min-width: 768px) {
+    .menu {
+        text-align: left;
+    }
+
+    .logo {
+        text-align: left;
+    }
 }
