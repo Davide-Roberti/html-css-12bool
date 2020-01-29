@@ -17,8 +17,6 @@
 
 [class*="col-"] {
     float: left;
-    /* da cancellare */
-    border: 1px solid red;
 }
 
 /* colonne XS */
